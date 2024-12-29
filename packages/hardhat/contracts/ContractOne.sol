@@ -13,12 +13,12 @@ contract ContractOne is ERC721 {
         totalSupply = 0;
     }
 
-    function mintNFT() public {
+    function mintNFT(address to) public {
         require(totalSupply < MAX_SUPPLY, "All NFTs have been minted");
-        require(!hasMinted[msg.sender], "You have already minted an NFT");
+        require(!hasMinted[to], "You have already minted an NFT");
 
         totalSupply += 1;
-        hasMinted[msg.sender] = true;
-        _safeMint(msg.sender, totalSupply);
+        hasMinted[to] = true;
+        _safeMint(to, totalSupply);
     }
 }
