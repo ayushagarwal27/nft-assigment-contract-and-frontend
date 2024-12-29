@@ -15,6 +15,6 @@
 - Hardhat
 - Next.js
 - TailwindCSS
-
-Contract One Sepolia [Link](https://sepolia.etherscan.io/address/0x774F270E0C4515F62217c9adE5c46dDee4fbd714)
-Contract Two Sepolia [Link](https://sepolia.etherscan.io/address/0xa2b736f4fbee2e2332ac2880d9b932c49eb1fe01)
+---
+- Contract One Sepolia [Link](https://sepolia.etherscan.io/address/0x774F270E0C4515F62217c9adE5c46dDee4fbd714)
+- Contract Two Sepolia [Link](https://sepolia.etherscan.io/address/0xa2b736f4fbee2e2332ac2880d9b932c49eb1fe01)
